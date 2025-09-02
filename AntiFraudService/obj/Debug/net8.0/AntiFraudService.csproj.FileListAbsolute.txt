@@ -54,3 +54,4 @@
 /home/sunlight/Work/RetoTecnico .net/RetoTecnico/AntiFraudService/obj/Debug/net8.0/AntiFraudService.pdb
 /home/sunlight/Work/RetoTecnico .net/RetoTecnico/AntiFraudService/obj/Debug/net8.0/AntiFraudService.genruntimeconfig.cache
 /home/sunlight/Work/RetoTecnico .net/RetoTecnico/AntiFraudService/obj/Debug/net8.0/ref/AntiFraudService.dll
+/home/sunlight/Work/RetoTecnico .net/RetoTecnico/AntiFraudService/obj/Debug/net8.0/AntiFraudService.sourcelink.json

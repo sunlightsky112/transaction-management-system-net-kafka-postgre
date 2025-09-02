@@ -1,3 +1,5 @@
+namespace TransactionService.Models;
+
 public class Transaction
 {
     public Guid Id { get; set; }
