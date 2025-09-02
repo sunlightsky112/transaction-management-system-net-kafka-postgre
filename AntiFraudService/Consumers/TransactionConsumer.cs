@@ -31,7 +31,13 @@ public class TransactionConsumer
         while (true)
         {
             var msg = consumer.Consume();
-            var transaction = JsonSerializer.Deserialize<Transaction>(msg.Value);
+            var transaction = JsonSerializer.Deserialize<Transaction>(msg.Message.Value);
+
+            if (transaction is null)
+            {
+                Console.WriteLine("Received null transaction, skipping...");
+                continue;
+            }
 
             var status = EvaluateTransaction(transaction);
             var update = new TransactionStatusUpdate { Id = transaction.Id, Status = status };
